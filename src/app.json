@@ -1,13 +1,29 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/moment/main",
+    "pages/time/main",
+    "pages/us/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#f29eaa",
+    "navigationBarTitleText": "Sweet Diaries",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "岁月",
+        "pagePath": "pages/time/main"
+      },
+      {
+        "text": "动态",
+        "pagePath": "pages/moment/main"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/us/main"
+      }
+    ]
   }
 }
